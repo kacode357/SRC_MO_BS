@@ -1,14 +1,12 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import React from 'react';
+import { Text, View } from 'react-native';
 
-const home = () => {
+const Home = () => {
   return (
-    <View className="flex-1 items-center justify-center bg-white">
-    <Text className="text-nlue-500 text-lg font-bold">
-      Homes
-    </Text>
-  </View>
-  )
-}
+    <View className="flex-1 items-center justify-center bg-gray-500">
+      <Text className="text-lg font-bold text-white">Homes</Text>
+    </View>
+  );
+};
 
-export default home
+export default Home;
